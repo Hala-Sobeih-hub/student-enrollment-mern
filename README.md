@@ -55,3 +55,60 @@ This is a full-stack MERN application built for a weekend Arabic school to manag
 ```bash
 git clone https://github.com/your-username/weekend-school-enrollment.git
 cd student-enrollment-mern
+
+### 2. Install dependencies
+```bash
+# Backend
+cd server
+npm install
+
+# Frontend
+cd ../client
+npm install
+
+### 3. Create .env files
+Create .env files in the server/ directory with the following:
+
+```bash
+PORT=5000
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+
+4. Run the app locally
+
+```bash
+# In one terminal
+cd server
+npm run dev
+
+# In another terminal
+cd client
+npm run dev
+Open http://localhost:5173 to view in the browser.
+
+🛣️ Roadmap
+ Stripe integration for online tuition payments
+
+ Admin-level reports and filters
+
+ Email notifications (confirmation, reminders)
+
+ Arabic language support (i18n)
+
+ Student attendance tracker
+
+🧑‍💻 Author
+[Your Name]
+GitHub Profile | LinkedIn
+
+📄 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+yaml
+
+---
+
+Would you like me to generate a live version of this with your name and links filled in?
